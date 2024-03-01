@@ -1,16 +1,30 @@
 import { defineConfig } from 'vitepress'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Vstar Vinyl flooring--Chinese Leading Vinyl Flooring Manufacturer and Exporter",
-  description: "Vstar Vinyl flooring",
+  title: "Vstar Vinyl flooring",
+  description: "Chinese Leading Vinyl Flooring Manufacturer and Exporter",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    // nav: [
+    //   { text: 'Home', link: '/' },
+    //   { text: 'PRODUCTS', link: '/markdown-examples' }
+    // ],
+    // 头部导航栏配置
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+      {
+        text: "PRODUCTS",
+        items: [
+          { text: "LVT FLOORING", link: "/site/html-css" },
+          { text: "RSVP FLOORING", link: "/site/framework" },
+        ],
+      },
+      {
+        text: "ABOUT US",
+        link: '/'
+      },
 
+    ],
     sidebar: [
       {
         text: 'Examples',
@@ -22,7 +36,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
