@@ -5,6 +5,7 @@ layout: home
 hero:
   name: "Vstar Vinyl flooring"
   text: "Vstar Vinyl flooring"
+
   tagline: Chinese Leading Vinyl Flooring Manufacturer and Exporter
 #  actions:
 #    - theme: brand

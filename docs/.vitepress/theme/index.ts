@@ -5,7 +5,7 @@
  */
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import Home from '../components/Home.vue'
-
+import "./custom.scss";
 export default {
     ...DefaultTheme,
     Layout: Home,

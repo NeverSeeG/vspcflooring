@@ -3,6 +3,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Vstar Vinyl flooring",
   description: "Chinese Leading Vinyl Flooring Manufacturer and Exporter",
+  //fav图标
+  head: [
+    ['link',{ rel: 'icon', href: '/icononly_transparent_nobuffer.png'}],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
@@ -10,6 +14,10 @@ export default defineConfig({
     //   { text: 'PRODUCTS', link: '/markdown-examples' }
     // ],
     // 头部导航栏配置
+    // siteTitle:false,
+    logo: '/icononly_transparent_nobuffer.png',
+
+
     nav: [
       { text: 'Home', link: '/' },
       {
@@ -21,7 +29,7 @@ export default defineConfig({
       },
       {
         text: "ABOUT US",
-        link: '/'
+        link: '/about'
       },
 
     ],
