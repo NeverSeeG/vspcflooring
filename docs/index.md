@@ -1,12 +1,12 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
+layout: foo
 
-hero:
-  name: "Vstar Vinyl flooring"
-  text: "Vstar Vinyl flooring"
+# hero:
+#   name: "Vstar Vinyl flooring"
+#   text: "Vstar Vinyl flooring"
 
-  tagline: Chinese Leading Vinyl Flooring Manufacturer and Exporter
+#   tagline: Chinese Leading Vinyl Flooring Manufacturer and Exporter
 #  actions:
 #    - theme: brand
 #      text: Markdown Examples
@@ -15,7 +15,7 @@ hero:
 #      text: API Examples
 #      link: /api-examples
 
-features:
+# features:
 #  - title: Feature A
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #  - title: Feature B
